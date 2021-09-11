@@ -1,0 +1,86 @@
+body {
+    background-color: #2e3b32;
+}
+
+.Sign_Up_Heading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    color: #f1c574;
+    border: 1px solid #f1c574;
+    border-radius: 25px;
+    width: 50vh;
+}
+
+.Sign_Up_form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+div input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 25px;
+    background-color: #2e3b32;
+}
+
+div form input {
+    margin: 20px;
+    padding: 5px;
+}
+
+.button {
+    background-color: #f1c574;
+    font-size: 25px;
+    text-decoration: none;
+    color: #2e3b32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+
+form {
+    border: 2px solid #f1c574;
+    /* border-color: #f1c574; */
+    border-radius: 25px;
+    text-align: center;
+}
+
+form input {
+    margin: 5px;
+    padding: 2px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.contact_bar{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+div ul li a{
+    list-style: none;
+    color: #228ce9;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+div li {
+    color: #f1c574;
+    list-style: none;
+    display: inline-flex;
+    font-weight: 500;
+}

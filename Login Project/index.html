@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- This is the main header I wanted to make it as simple as possible -->
+    <header>
+        <h1 class="head_H1">Sugar Honey Enterprise Login</h1>
+    </header>
+    <div class="wrapper">
+        <div class="form">
+            <form method="post" action="./Home Page/IndexHome.html" onsubmit="return validation();">
+                <div class="input_wrap">
+                    <div class="input_field">
+                        <input type="text" class="input" placeholder="Enter User Name" id="input_text">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <div class="input_field">
+                        <input type="password" class="input" placeholder="Enter password" id="input_password">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <span class="error_msg">Incorrect username or password. Please try again</span>
+                    <input type="submit" id="login_btn" class="btn disabled" value="Login" disabled="true">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="Sign_Up_Bar">
+        <button><a href="./Signup/index1.html">Sign Up</a></button>
+    </div>
+
+
+    <footer>
+        <div class="contact_bar">
+            <h3 class="Contact_Heading">Contact Us</h3>
+            <!-- <h4 class="Footer_H4"> -->
+            <ul>
+                <li> <a href="">Facebook</a></li>
+                <li> <a href="">Twitter</a></li>
+                <li> <a href="">Instagram</a></li>
+            </ul>
+            <!-- </h4> -->
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

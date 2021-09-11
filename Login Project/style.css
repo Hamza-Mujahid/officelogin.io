@@ -1,0 +1,80 @@
+body{
+background-color: #2e3b32;
+}
+.head_H1{
+background-color: #f1c574;
+margin: 20px;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 25px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.wrapper{
+border: 2px solid #f1c574;
+margin: 20px;
+padding: 20px;    
+text-align: center;
+border-radius: 25px;
+}
+div input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #2e3b32;
+    font-size: 25px;
+    margin: 5px;
+    padding:5px;
+}
+div .login_btn{
+    background-color: #f1c574;
+    font-size: 25px;
+}
+.Sign_Up_Bar{
+    display: flex;
+    justify-content: center;
+}
+div button{
+    background-color: #f1c574;
+
+}
+div button a{
+    text-decoration: none;
+    color: #2e3b32;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.contact_bar{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.Contact_Heading{
+color: aliceblue;
+}
+div li {
+    color: #f1c574;
+    list-style: none;
+    display: inline-flex;
+    font-weight: 500;
+}
+div ul li a{
+    list-style: none;
+    color: #228ce9;
+    text-decoration: none;
+    word-spacing: 5px;
+}

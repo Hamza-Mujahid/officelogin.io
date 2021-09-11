@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#222;
+    color: #fff;
+}
+.nav_bar_box{
+    border: 10px solid #555;
+    border-radius: 25px;
+}
+header div h1{
+    display: inline-flex;
+}
+.navbar div{
+    display: inline-flex;
+    justify-content: end;
+}
+.open-button{
+    margin: 25px;
+    padding: 5px;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #f1c574;
+    font-size: 25px;
+    text-decoration: none;
+    color: #2e3b32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}

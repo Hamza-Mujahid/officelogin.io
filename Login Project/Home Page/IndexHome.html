@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav_bar_box">
+            <h1>
+                SH
+            </h1>
+            <nav class="navbar">
+                <div>
+                    <ul>
+                        <li><a href="./IndexHome.html">Home</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="Main_container">
+        <div class="welcome_heading">
+            <h1>
+                Welcome "username"
+            </h1>
+        </div>
+        <fieldset>
+            <legend>
+                Admin
+            </legend>
+            <div class="Teams">
+                <fieldset>
+                    <legend>
+                        Your Team
+                    </legend>
+                    <div class="team_error">
+                        <span>
+                            <h2>You do not have team </h2>
+                        </span>
+                    </div>
+                </fieldset>
+            </div>
+        </fieldset>
+        <div>
+            <button class="open-button" onclick="openForm()">Add Members</button>
+
+            <div class="form-popup" id="myForm">
+                <form action="./IndexHome.html" class="form-container">
+
+                    <input type="text" name="memberName" id="memberName" placeholder="Member name" required>
+                    <input type="email" name="Email" id="email" placeholder="Enter Email" required>
+                    <select name="Depart" id="department" required>
+                        <option value="HR">HR Department</option>
+                        <option value="Marketing">Marketing Department</option>
+                        <option value="Sales">Sales Department </option>
+                        <option value="Management">Management Department</option>
+                        <option value="Finace">Finance Department</option>
+                        <option value="Human Resource">Human Resource Department</option>
+                    </select>
+
+                    <button type="submit" onclick="addmember()" class="btn">Add Member</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
